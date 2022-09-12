@@ -1,0 +1,266 @@
+.profileSetting h1{
+    font-size: 22px;
+    font-weight: 700;
+    margin: 17px 0px 24px 16px;
+}
+
+.managerProfile{
+    width:796px;
+    height: calc(100vh - 80px);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    font-family: "Noto Sans";
+    align-items: center;
+    flex-direction: column;
+    margin-left: 24px;
+    border-radius: 8px;
+    overflow-y: auto;
+}
+.managerProfileContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.managerProfile::-webkit-scrollbar{
+    width: 0px;
+}
+.managerProfile label{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5E5E62;
+}
+
+.managerNameImageContainer{
+    width: 90%;
+    height: 118px;
+    display: flex;
+    align-items: center;
+}
+.managerNameContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.managerImageAndName{
+    display: flex;
+    align-items: center;
+}
+.managerName{
+    margin-left: 23px;
+}
+.managerName h2{
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.managerName p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #5E5E62;
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+.managerImage{
+    width: 76px;
+    height: 76px;
+    background-color: #F3F3F3;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.editManager{
+    position: absolute;
+    left: 85%;
+    top: 85%;
+    transform: translate(-50%,-50%);
+}
+.dividerBorder{
+    width: 100%;
+    border: 1px solid 
+    #EFEFEF;
+}
+.dividerBorderBasicInfo{
+    width: 100%;
+    border: 1px solid 
+    #EFEFEF;
+    margin-top: 16px;
+}
+.basicInfo{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+.basicInfo img{
+    margin-left: 270px;
+}
+.basicInfo h3{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.firstLastName{
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 24px;
+}
+.firstLastName input{
+    width: 243px;
+    height: 42px;
+    font-size: 14px;
+    border: 1px solid #9FA2B4;
+    border-radius: 8px;
+    margin-top: 6px;
+    padding: 0px 16px;
+    outline: none;
+}
+.firstLastName h3{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+.firstNameManager{
+   width: 186px;
+}
+.lastNameManager{
+    width: 186px;
+    margin-left: 32px;
+}
+.emailAndLanguage{
+    width: 90%;
+    display: flex;
+}
+.emailManager{
+    margin-top: 24px;
+    width: 243px;
+    display: flex;
+    flex-direction: column;
+}
+.emailManager h3{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+.emailManager input{
+    width: 243px;
+    height: 42px;
+    font-size: 14px;
+    border: 1px solid #9FA2B4;
+    border-radius: 8px;
+    margin-top: 6px;
+    padding: 0px 16px;
+    outline: none;
+}
+.languagePreferrence{
+    margin-left: 32px;
+    margin-top: 24px;
+}
+.custom-select{
+    width: 243px;
+    height: 42px;
+    border-radius: 8px;
+    margin-top: 6px;
+    outline: none;
+    border: 1px solid #9FA2B4;
+}
+.managerSaveAndCancelBtn{
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 16px;
+}
+.managerSaveAndCancelBtn button{
+    width: 79px;
+    height: 42px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 800;
+    color: white;
+    border: none;
+    outline: none;
+}
+.managerSaveBtn{
+    background-color:#041342;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.managerCancelBtn{
+    background-color:#C5C5C5;
+    margin-left: 12px;
+}
+.dividerBorderPasswordTop{
+    width: 100%;
+    border: 1px solid 
+    #EFEFEF;
+    margin-top: 26px;
+}
+.dividerBorderPasswordBottom{
+    width: 100%;
+    border: 1px solid 
+    #EFEFEF;
+    margin-top: 16px;
+}
+.passwordInfo{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+.passwordInfo h3{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.passwordInput{
+    margin-top: 24px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.passwordInput input{
+    width: 243px;
+    height: 42px;
+    margin-top: 6px;
+    background: #F3F3F3;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.oldNewPasswordInput{
+    width: 90%;
+    display: flex;
+    margin-top: 24px;
+}
+.oldNewPasswordInput input{
+    height: 42px;
+    border-radius: 8px;
+    border: 1px solid #9FA2B4;
+    margin-top: 6px;
+    outline: none;
+    padding: 0px 17px;
+    width: 243px;
+}
+.oldPasswordManager{
+    width: 243px;
+}
+.newPasswordManager{
+    width: 243px;
+    margin-left: 35px;
+}
